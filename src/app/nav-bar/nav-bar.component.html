@@ -1,4 +1,10 @@
 <mat-toolbar color="primary">
+    <!-- <div>
+      <button mat-icon-button *ngIf="sidenav.mode ==='over'" (click)="sidenav.toggle()">
+        <mat-icon *ngif="!sidenav.opened">menu</mat-icon>
+        <mat-icon *ngif="sidenav.opened">close</mat-icon>
+      </button>
+    </div> -->
     <div class="companylogo">
       <h3>olm</h3>
     </div>
@@ -8,9 +14,9 @@
     </div>
 
     <div class="column">
-        <a routerLink="#" mat-icon-button><mat-icon>notifications</mat-icon></a>
-        <a routerLink="#" mat-icon-button><mat-icon>settings</mat-icon></a>
-        <a routerLink="#" mat-icon-button><mat-icon>help</mat-icon></a>
-        <a routerLink="#" mat-icon-button><mat-icon>person</mat-icon></a>
+        <a routerLink="notifications" mat-icon-button><mat-icon>notifications</mat-icon></a>
+        <a routerLink="settings" mat-icon-button><mat-icon>settings</mat-icon></a>
+        <a routerLink="helps" mat-icon-button><mat-icon>help</mat-icon></a>
+        <a routerLink="profile" mat-icon-button><mat-icon>person</mat-icon></a>
     </div>
 </mat-toolbar>

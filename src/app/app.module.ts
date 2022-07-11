@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Programmer developed Components.
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
 
 //Angular Materials.
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -50,12 +51,30 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { ProfileComponent } from './nav-bar/profile/profile.component';
+import { InventoryComponent } from './side-bar/inventory/inventory.component';
+import { OrderComponent } from './side-bar/order/order.component';
+import { IngredientMgmtComponent } from './side-bar/ingredient-mgmt/ingredient-mgmt.component';
+import { VendorMgmtComponent } from './side-bar/vendor-mgmt/vendor-mgmt.component';
+import { ReportsComponent } from './side-bar/reports/reports.component';
+import { HelpsComponent } from './nav-bar/helps/helps.component';
+import { SettingsComponent } from './nav-bar/settings/settings.component';
+import { NotificationsComponent } from './nav-bar/notifications/notifications.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    ProfileComponent
+    ProfileComponent,
+    SideBarComponent,
+    InventoryComponent,
+    OrderComponent,
+    IngredientMgmtComponent,
+    VendorMgmtComponent,
+    ReportsComponent,
+    HelpsComponent,
+    SettingsComponent,
+    NotificationsComponent,
+
   ],
   imports: [
     BrowserModule,

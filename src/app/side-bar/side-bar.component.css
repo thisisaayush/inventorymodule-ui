@@ -2,10 +2,10 @@ mat-sidenav {
   margin: 26px;
   width: 280px;
   border-right: none;
-  background:#002b5c;
+  background: #6f42c1;
   color:white;
   border-radius: 10px;
-  padding: 26px;
+  padding: 6px;
   text-align: center;
   float: left;
 
@@ -19,7 +19,7 @@ mat-sidenav {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  color: lightgray;
+  color: rgb(78, 5, 214);
   border-radius: 10px;
 }
 

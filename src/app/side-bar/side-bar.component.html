@@ -1,38 +1,40 @@
-<!-- <mat-sidenav-container>
-  <mat-sidenav mode="side" opened>
+<mat-sidenav-container>
+  <!-- <mat-sidenav #sidenav="matSidenav"> -->
+    <mat-sidenav mode="side" opened>
       <div class="cols">
-          <button mat-button class="menu-button">
-             <li role="presentation" routerLinkActive="active"><a routerLinkk="">Dashboard</a></li>
-          </button>
-          <br>
-          <button mat-button class="menu-button">
-              <li role="presentation" routerLinkActive="active"><a routerLinkk="">Inventory</a></li>
-          </button>
-          <br>
-          <button mat-button class="menu-button">
-              <li role="presentation" routerLinkActive="active"><a routerLinkk="">Order & Delivery</a></li>
-          </button>
-          <br>
-          <button mat-button class="menu-button">
-              <li role="presentation" routerLinkActive="active"><a routerLinkk="">Ingredient Management</a></li>
-          </button>
-          <br>
-          <button mat-button class="menu-button">
-              <li role="presentation" routerLinkActive="active"><a routerLinkk="">Vendor Management</a></li>
-          </button>
-          <br>
-          <button mat-button class="menu-button">
-              <li role="presentation" routerLinkActive="active"><a routerLinkk="">Reports</a></li>
-          </button>
+        <div class="column">
+
+              <button mat-button class="menu-button">
+                <a routerLink="dashboard" mat-icon-button><mat-icon>dashboard</mat-icon>Dashboard</a>
+              </button>
+              <br>
+              <button mat-button class="menu-button">
+                <a routerLink="inventory" mat-icon-button><mat-icon>storage</mat-icon>Inventory</a>
+              </button>
+              <br>
+              <button mat-button class="menu-button">
+                <a routerLink="order" mat-icon-button><mat-icon>local_shipping</mat-icon>Order & Delivery</a>
+              </button>
+              <br>
+              <button mat-button class="menu-button">
+                <a routerLink="ingredient" mat-icon-button><mat-icon>local_pizza</mat-icon>Ingredient Management</a>
+              </button>
+              <br>
+              <button mat-button class="menu-button">
+                <a routerLink="vendor" mat-icon-button><mat-icon>contacts</mat-icon>Vendor Management</a>
+              </button>
+              <br>
+              <button mat-button class="menu-button">
+                <a routerLink="reports" mat-icon-button><mat-icon>insert_chart</mat-icon>Reports</a>
+              </button>
+
+        </div>
       </div>
   </mat-sidenav>
-
-  <mat-sidenav-content>
-      <div class="content">
-           <router-outlet></router-outlet>
+    <mat-sidenav-content>
+      <div class="content mat-elevation-z4">
+          <router-outlet></router-outlet>
       </div>
-  </mat-sidenav-content>
-
+    </mat-sidenav-content>
 </mat-sidenav-container>
 
--->
