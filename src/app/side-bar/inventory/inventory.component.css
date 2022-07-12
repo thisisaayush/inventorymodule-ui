@@ -1,11 +1,37 @@
 .content {
-  height: calc(100vh - 98px);
-  margin: 16px;
-  margin-left: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: rgb(78, 5, 214);
-  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+#inventory_table td, #inventory_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#inventory_table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#inventory_table tr:hover {
+  background-color: #ddd;
+}
+
+#inventory_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #6f42c1;
+  color: white;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
 }
