@@ -38,3 +38,8 @@ mat-sidenav-container {
 mat-icon {
   margin-right: 8px;
 }
+
+.menu-button:hover{
+  background-color: rgb(240, 233, 223);
+  color: #6f42c1;
+}
