@@ -1,14 +1,12 @@
-body{
-  margin-top:20px;
-  color: #1a202c;
-  text-align: left;
-  background-color: #e2e8f0;
-}
-.main-body {
-  padding: 15px;
-}
+.content {
+  height: calc(100vh - 98px);
+  font-size: 2rem;
+  color: rgb(78, 5, 214);
+  border-radius: 10px;
 
-.nav-link {
-  color: #4a5568;
+  position: relative;
+  padding: 10px;
+  margin-top: 32px;
+  margin-left: 25px;
+  border-radius: 3px;
 }
-
