@@ -9,7 +9,8 @@ import { BreakpointObserver } from '@angular/cdk/layout';
 })
 export class AppComponent {
 
-  @ViewChild(MatSidenav) sidenav!: MatSidenav;
+  @ViewChild(MatSidenav) 
+  sidenav!: MatSidenav;
 
   constructor(private observer: BreakpointObserver){
 
@@ -17,16 +18,17 @@ export class AppComponent {
 
   //enables side nav to expand and contract based on the action.
   ngAfterViewInit(){
-    this.observer.observe(['(max-width): 800px']).subscribe((res)=>{
+    this.observer.observe(['(max-width: 00px)']).subscribe((res)=>{
       if(res.matches){
         this.sidenav.mode='over';
         this.sidenav.close();
       }
       else{
         this.sidenav.mode = 'side';
-        this.sidenav.open();
-      }
-    });
+        // this.sidenav.open();
+      // }
+    }
+  });
 
   }
 }

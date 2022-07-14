@@ -1,3 +1,7 @@
+mat-sidenav-container {
+  height: calc(100vh - 65px);
+}
+
 mat-sidenav {
   margin: 26px;
   width: 280px;
@@ -10,21 +14,9 @@ mat-sidenav {
   float: left;
 
 }
-/*
-.content {
-  height: calc(100vh - 98px);
-  margin: 16px;
-  margin-left: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: rgb(78, 5, 214);
-  border-radius: 10px;
-} */
 
-mat-sidenav-container {
-  height: calc(100vh - 65px);
+mat-toolbar{
+  color: white;
 }
 
 .menu-button {

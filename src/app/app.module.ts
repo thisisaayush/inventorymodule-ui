@@ -76,7 +76,7 @@ import { NotificationsComponent } from './nav-bar/notifications/notifications.co
     HelpsComponent,
     SettingsComponent,
     NotificationsComponent,
-
+  
   ],
   imports: [
     BrowserModule,

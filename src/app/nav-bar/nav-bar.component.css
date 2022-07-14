@@ -1,9 +1,11 @@
 .searchbar{
   display: inline-block;
-    margin: 0 auto;
-    margin-right: auto;
-    width: 550px;
+  margin: 0 auto;
+  margin-right: auto;
+  width: 550px;
 }
+
+
 
 input[type="text"]::placeholder {
   text-align: center;
