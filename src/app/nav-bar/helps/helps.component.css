@@ -10,3 +10,46 @@
   margin-left: 25px;
   border-radius: 3px;
 }
+
+.header{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #d5c7ee;
+  color: black;
+}
+
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #b5a6cf;
+  color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  margin-top: 5px;
+  padding: 2px;
+  border-color: #fff;
+}
