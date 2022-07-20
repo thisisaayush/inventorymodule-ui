@@ -61,6 +61,7 @@ import { ReportsComponent } from './side-bar/reports/reports.component';
 import { HelpsComponent } from './nav-bar/helps/helps.component';
 import { SettingsComponent } from './nav-bar/settings/settings.component';
 import { NotificationsComponent } from './nav-bar/notifications/notifications.component';
+import { NewInventoryComponent } from './side-bar/inventory/new-inventory/new-inventory.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +77,8 @@ import { NotificationsComponent } from './nav-bar/notifications/notifications.co
     HelpsComponent,
     SettingsComponent,
     NotificationsComponent,
-  
+    NewInventoryComponent,
+   
   ],
   imports: [
     BrowserModule,

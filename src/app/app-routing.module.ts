@@ -7,6 +7,7 @@ import { SettingsComponent } from './nav-bar/settings/settings.component';
 import { DashboardComponent } from './side-bar/dashboard/dashboard.component';
 import { IngredientMgmtComponent } from './side-bar/ingredient-mgmt/ingredient-mgmt.component';
 import { InventoryComponent } from './side-bar/inventory/inventory.component';
+import { NewInventoryComponent } from './side-bar/inventory/new-inventory/new-inventory.component';
 import { OrderComponent } from './side-bar/order/order.component';
 import { ReportsComponent } from './side-bar/reports/reports.component';
 import { VendorMgmtComponent } from './side-bar/vendor-mgmt/vendor-mgmt.component';
@@ -24,7 +25,10 @@ const routes: Routes = [
 { path: 'profile', component:ProfileComponent },
 { path: 'helps', component:HelpsComponent },
 { path: 'settings', component:SettingsComponent },
-{ path: 'notifications', component:NotificationsComponent }
+{ path: 'notifications', component:NotificationsComponent },
+
+ //side-bar | invnetory | new-inventory routing properties.
+ { path: 'newinventory', component:NewInventoryComponent }
 
 ];
 

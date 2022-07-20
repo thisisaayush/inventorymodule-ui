@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Ibarra+Real+Nova&display=swap') */
 /* Message Box */
 .content {
   height: calc(100vh - 98px);
@@ -120,6 +121,13 @@
 
   /* Sales Activity */
 
+main .box-topic {
+  padding: 5px;
+}
+.text{
+  padding: 5px;
+}
+
 .sales{
   top: 10px;
   text-align: left;
@@ -133,3 +141,95 @@
   border-radius: 3px;
 }
 
+.home-section .overview-boxes{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.home-section .home-content{
+  position: relative;
+  padding-top: 100px;
+}
+
+.home-content .overview-boxes{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.home-content .overview-boxes .box{
+ /*width: calc(100% / 4 - 15px);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 14px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.home-content .overview-boxes .box-topic{
+  font-size: 20px;
+  font-weight: 500;
+  color:#000;
+}
+
+.home-content .overview-boxes .number{
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.overview-boxes .indicator{
+  display: flex;
+  align-items: center;
+}
+
+.overview-boxes .indicator i{
+  height: 20px;
+  width: 20px;
+  background: green;
+  color:#fff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.overview-boxes .indicator i.down{
+  background: #e87d88;
+}
+
+.overview-boxes .indicator .text{
+  font-size: 12px;
+}
+
+.overview-boxes .box .cart{
+  font-size: 32px;
+  font-weight: 500;
+  height: 50px;
+  width: 50px;
+  background: #66b0ff;
+  color: #cce5ff;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.overview-boxes .box .cart.two{
+  background: #2BD47D;
+  color: #C0F2D8
+  
+}
+
+.overview-boxes .box .cart.three{
+  background: #ffc233;
+  color: #ffe8b3;
+}
+
+.overview-boxes .box .cart.four{
+  background: #e05260;
+  color: #f7d4d7;
+}

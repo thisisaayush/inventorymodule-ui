@@ -1,0 +1,62 @@
+.content {
+    height: calc(100vh - 98px);
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin-top: 32px;
+    margin-left: 25px;
+    border-radius: 3px;
+    background-color: #fff;
+
+    max-width: 100%;
+  }
+
+.content .new-inventory .title{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.content .new-inventory{
+  background-color: rgb(222, 221, 223);
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.user-details .input-box input{
+  height: 25px;
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+}
+
+form .user-details .input-box{
+  width: calc(100% / 2 - 20px);
+}
+
+.user-details{
+  margin-left: 25px;
+  width: 100%;
+}
+
+.input-box{
+    color: black;
+}
+
+.footer{
+  padding-top: 15px;
+  margin-left: 25px;
+}
+
+.additional-info .comment-section{
+  margin-top: -10px;
+  width: 40%;
+  height: 75px;
+  border-radius: 6px;
+}
+
+.footer .footer-button{
+  width: 35%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
